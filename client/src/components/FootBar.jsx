@@ -1,9 +1,9 @@
 import React from "react";
 import { Navbar, Button, Dropdown, Badge } from "flowbite-react";
 
-function NavBar() {
+function FootBar() {
   return (
-    <div className="fixed w-screen">
+    <div className="static  w-screen">
       <Navbar fluid={true} rounded={true}>
         <Navbar.Brand href="">
           {/* <img
@@ -306,4 +306,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default FootBar;
